@@ -1,0 +1,116 @@
+/* nav.css */
+
+nav {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+    box-shadow: 0 2px 8px rgba(30, 60, 114, 0.15);
+    padding: 0 32px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: rgba(255,255,255,0.15);
+    color: #ffd700;
+}
+
+.navbar {
+    background: #1e88e5;
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #cce7ff;
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 16px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        margin-top: 12px;
+    }
+    nav .logo {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

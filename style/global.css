@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografia global */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+.welcome-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem;
+    color: #1e88e5;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.site-description h2 {
+    font-size: 1.8rem;
+    color: #1e88e5;
+    margin-bottom: 10px;
+}
+
+.site-description h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.site-description p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.site-description ul {
+    list-style: disc;
+    margin: 0 0 20px 20px;
+    padding: 0;
+    color: #555;
+}
+
+.site-description li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.login-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #1e88e5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.login-link:hover {
+    background: #1565c0;
+}
+
+/* Links padrão */
+a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #003366;
+}
+
+/* Botões padrão */
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #0056b3;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #003366;
+}
+
+/* Inputs padrão */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 10px;
+    background: #fff;
+    color: #222;
+    transition: border 0.2s;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #0056b3;
+}
+
+/* Container padrão */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Não estilize .navbar, .nav-links, .footer, .footer-container, .footer-content, .footer-logo, .footer-links, .footer-copy */

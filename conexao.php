@@ -8,6 +8,7 @@ class Database
     private string $pass = '296745Ve';
     private string $charset = 'utf8mb4';
 
+    
     // Instância do PDO
     private ?PDO $pdo = null;
 

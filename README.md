@@ -51,9 +51,3 @@ O **Gestão Futebol RJ** foi desenvolvido para facilitar a organização de camp
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-Desenvolvido por [Seu Nome ou Organização]

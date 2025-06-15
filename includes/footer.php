@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/futebol-rj/style/footer.css">
+<link rel="stylesheet" href="/style/footer.css">
 
 <footer class="footer">
     <div class="footer-container">

@@ -4,7 +4,7 @@ class Database
     // Configurações de conexão
     private string $host = 'sql102.infinityfree.com';
     private string $db   = 'if0_39239672_dbrfutebol';
-    private string $user = 'git';
+    private string $user = 'if0_39239672';
     private string $pass = '296745Ve';
     private string $charset = 'utf8mb4';
 

@@ -8,7 +8,7 @@
     <title>Bem-vindo - Gestão Futebol</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
    
-    <link rel="stylesheet" href="/futebol-rj/style/global.css">
+    <link rel="stylesheet" href="/style/global.css">
     
 </head>
 <body>

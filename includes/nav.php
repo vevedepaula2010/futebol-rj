@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/futebol-rj/style/nav.css">
+<link rel="stylesheet" href="/style/nav.css">
 <nav class="navbar">
     <div class="container navbar-container">
         <a href="index.php" class="logo navbar-logo">Gestão Futebol</a>

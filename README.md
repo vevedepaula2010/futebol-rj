@@ -6,7 +6,7 @@ Sistema web completo para administração e acompanhamento de campeonatos de fut
 
 O **Gestão Futebol RJ** foi desenvolvido para facilitar a organização de campeonatos, clubes, equipes e estatísticas do futebol. O sistema é ideal para federações, clubes, organizadores e profissionais do esporte que buscam uma solução eficiente, moderna e segura para gerenciar competições.
 
-## Funcionalidades
+## Funcionalidades 
 
 - **Cadastro de Times e Jogadores:** Gerencie elencos com informações detalhadas (posição, altura, peso, idade, etc).
 - **Controle de Competições:** Crie e administre torneios de diferentes tipos e temporadas.

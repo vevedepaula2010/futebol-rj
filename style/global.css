@@ -10,6 +10,7 @@ body {
     background-color: #f7f7f7;
     color: #222;
     line-height: 1.6;
+    padding-bottom: 56px; /* ajuste conforme a altura do footer */
 }
 
 .welcome-container {
@@ -139,6 +140,21 @@ textarea:focus {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
+}
+
+/* Rodapé fixo no final da página */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 1rem;
+    z-index: 100;
+    box-shadow: 0 -2px 8px rgba(30, 60, 114, 0.10);
 }
 
 /* Não estilize .navbar, .nav-links, .footer, .footer-container, .footer-content, .footer-logo, .footer-links, .footer-copy */
